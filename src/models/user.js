@@ -40,5 +40,18 @@ const User = mongoose.model('user', {
     }
 })
 
+    // sample user example
+// const me = new User({
+//     name: 'Mike', 
+//     email: 'mike@'
+// })
+
+
+// me.save().then(() => {
+//     console.log(me)
+// }).catch((error) => {
+//     console.log('Error!', error)
+// })
+
 // so other files can use this we export
 module.exports = User
